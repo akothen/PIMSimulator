@@ -145,6 +145,12 @@ sudo apt install scons
 * `gtest` for running test cases:
 ```bash
 sudo apt install libgtest-dev
+
+sudo apt install libgtest-dev cmake
+cd /usr/src/gtest
+sudo cmake CMakeLists.txt
+sudo make
+sudo cp *.a /usr/lib
 ```
 
 ### 3.2 Installing
